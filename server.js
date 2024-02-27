@@ -37,4 +37,5 @@ app.get('/redirect', (req, res) => {
 app.listen(PORT, (err) => {
     if (err) throw err;
     console.log(`Server listening on http://localhost:${PORT}`);
+    console.log(`Link Deploy en Glitch: https://universal-obvious-enthusiasm.glitch.me/`);
 });
