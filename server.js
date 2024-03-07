@@ -14,7 +14,7 @@ app.get('/', (req, res) => {
 
 app.get('/form', (req, res) => {
     res.send(`
-    <form style="background-color: pink; padding: 15px">
+    <form style="background-color: pink; padding: 15px; text-align: center;">
             <p style="font-size: 20">
                 Ingresa tu nombre: 
                 <input style="border-radius: 4px; border-color: white; height: 25px; width: 200px" type="text" name="nombre"></input>
